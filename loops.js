@@ -17,15 +17,15 @@ for (let i = 0; i < 3; i++) {
 // loop...
 // klaar!
  // ==========================================
-const loopie = ['loop...', 'loop...', 'loop...', 'loop...', 'Klaar!'];
 
-for (let i = 0; i < loopie.length; i++) {
+for (let i = 0; i < 5; i++) {
     if (i < 4) {
         console.log('loop...');
     } else {
         console.log('Klaar!');
     }
 }
+
 // ==========================================
 // Opdracht 3. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal even of oneven is.
 // Verwachte uitkomsten:
